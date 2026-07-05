@@ -5,53 +5,35 @@ weight: 1
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
 
 ### Week 5 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Get started with Infrastructure as Code using AWS CloudFormation.
+* Build a serverless automation using AWS Lambda with third-party (Slack) integration.
+* Strengthen identity governance with AWS SSO, IAM Permission Boundaries, and role-assumption conditions.
+* Attend FCAJ Community Day to explore prompt engineering and multi-agent AI systems.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Task                                                                                             | Start Date | Completion Date | Reference Material |
+| --- | ------------------------------------------------------------------------------------------------- | ---------- | --------------- | ------------------- |
+| 2   | - Initialize Infrastructure as Code with AWS CloudFormation                                       | 18/05/2026 | 18/05/2026      |     https://000037.awsstudygroup.com/                 |
+| 3   | - Automate server shutdown and Slack messaging with AWS Lambda                                    | 19/05/2026 | 19/05/2026      |         https://000022.awsstudygroup.com/             |
+| 4   | - Set up Single Sign-On (AWS SSO) for the organization                                            | 20/05/2026 | 20/05/2026      |      https://000012.awsstudygroup.com/                |
+| 5   | - Limit user permissions with an IAM Permission Boundary                                          | 21/05/2026 | 21/05/2026      |      https://000030.awsstudygroup.com/                |
+| 6   | - Limit role transfer (AssumeRole) by condition                                                   | 22/05/2026 | 22/05/2026      |           https://000044.awsstudygroup.com/           |
+| 7   | - Attend FCAJ Community Day: prompt engineering & context, the LotusHack journey, non-determinism in LLM settings, Amazon CloudFront, enterprise-grade multi-agent systems | 23/05/2026 | 23/05/2026      |                      |
 
 
 ### Week 5 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Initialized Infrastructure as Code using AWS CloudFormation for automated, repeatable deployments.
+* Built a serverless automation with AWS Lambda for scheduled server shutdowns with Slack notifications.
+* Set up AWS Single Sign-On (SSO) for the organization.
+* Strengthened security by implementing IAM Permission Boundaries.
+* Learned to restrict role transfer (AssumeRole) using IAM conditions.
+* Attended FCAJ Community Day: learned about prompt engineering & context, the LotusHack journey, non-determinism in LLM settings, Amazon CloudFront, and enterprise-grade multi-agent systems.
 
-* Successfully created and configured an AWS Free Tier account.
+**AWS services learned this week:** AWS CloudFormation, AWS Lambda, AWS Single Sign-On (IAM Identity Center), AWS IAM (Permission Boundaries, Conditions).
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+**Skills gained:** Infrastructure as Code (IaC); serverless automation; identity and access management (SSO, Permission Boundaries); prompt engineering and LLM concepts (from Community Day).

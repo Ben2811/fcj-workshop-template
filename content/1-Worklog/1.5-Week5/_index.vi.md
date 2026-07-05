@@ -5,55 +5,37 @@ weight: 1
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
 ### Mục tiêu tuần 5:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Bắt đầu làm quen với Infrastructure as Code bằng AWS CloudFormation.
+* Xây dựng automation serverless bằng AWS Lambda tích hợp với dịch vụ bên thứ ba (Slack).
+* Củng cố quản trị định danh với AWS SSO, IAM Permission Boundary và điều kiện AssumeRole.
+* Tham gia FCAJ Community Day để tìm hiểu về prompt engineering và hệ thống multi-agent AI.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ | Công việc                                                                        | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | ------------------------------------------------------------------------------------ | ------------ | --------------- | -------------- |
+| 2   | - Khởi tạo Infrastructure as Code bằng AWS CloudFormation                            | 18/05/2026   | 18/05/2026      | https://000037.awsstudygroup.com/ |
+| 3   | - Tự động hoá việc tắt server và gửi thông báo Slack bằng AWS Lambda                 | 19/05/2026   | 19/05/2026      |    https://000022.awsstudygroup.com/             |
+| 4   | - Thiết lập Single Sign-On (AWS SSO) cho tổ chức                                     | 20/05/2026   | 20/05/2026      |    https://000012.awsstudygroup.com/             |
+| 5   | - Giới hạn quyền người dùng bằng IAM Permission Boundary                             | 21/05/2026   | 21/05/2026      |        https://000030.awsstudygroup.com/         |
+| 6   | - Giới hạn việc chuyển role (AssumeRole) theo điều kiện                              | 22/05/2026   | 22/05/2026      |         https://000044.awsstudygroup.com/         |
+| 7   | - Tham gia FCAJ Community Day: Prompt Engineering & Context, hành trình LotusHack, Non-Determinism trong LLM Settings, Amazon CloudFront, Enterprise-Grade Multi-Agent System | 23/05/2026   | 23/05/2026      |                 |
 
 
 ### Kết quả đạt được tuần 5:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Khởi tạo Infrastructure as Code bằng AWS CloudFormation để triển khai tài nguyên tự động, lặp lại được.
+* Xây dựng automation serverless bằng AWS Lambda để tự động tắt server theo lịch và gửi thông báo qua Slack.
+* Thiết lập AWS Single Sign-On (SSO) cho tổ chức.
+* Tăng cường bảo mật bằng cách triển khai IAM Permission Boundary.
+* Học cách giới hạn việc chuyển role (AssumeRole) bằng điều kiện IAM.
+* Tham gia FCAJ Community Day: tìm hiểu về Prompt Engineering & Context, hành trình LotusHack, Non-Determinism trong LLM Settings, Amazon CloudFront và Enterprise-Grade Multi-Agent System.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+**Dịch vụ AWS đã học trong tuần:** AWS CloudFormation, AWS Lambda, AWS Single Sign-On (IAM Identity Center), AWS IAM (Permission Boundaries, Conditions).
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+**Kỹ năng đạt được:** Infrastructure as Code (IaC); tự động hoá serverless; quản lý định danh và truy cập (SSO, Permission Boundary); kiến thức prompt engineering và LLM (từ Community Day).
 
 
