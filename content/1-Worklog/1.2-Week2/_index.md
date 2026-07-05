@@ -1,57 +1,43 @@
 ---
 title: "Week 2 Worklog"
-date: 2024-01-01
+date: 2026-07-05
 weight: 1
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+
 
 
 ### Week 2 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Get hands-on with Amazon EC2: instance metadata, user data, and Auto Scaling fundamentals.
+* Practice launching, modifying, and backing up EC2 instances (snapshots & custom AMIs).
+* Deploy a functional application on Amazon EC2 and manage access with IAM users, access keys, and roles.
+* Get introduced to cloud-based development with AWS Cloud9, and learn to set up a database with Amazon RDS.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Task                                                                                                                                                                                                                                                                                       | Start Date | Completion Date | Reference Material |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ------------------- |
+| 2   | - Learn about User data <br> - Learn about Meta data <br> - Learn about EC2 Auto Scaling                                                                                                                                                                                                  | 27/04/2026 | 27/04/2026      |                      |
+| 3   | - Launch Microsoft Windows & Linux instances <br> - Modify an EC2 instance <br> - Create a snapshot & custom AMI <br> - Deploy the AWS User Management Application on Amazon Linux <br> - Generate an IAM user and access key <br> - Use the access key <br> - Create and use an IAM Role | 28/04/2026 | 28/04/2026      |         https://000004.awsstudygroup.com/             |
+| 4   | - Use the Cloud IDE in the browser with AWS Cloud9                                                                                                                                                                                                                                         | 29/04/2026 | 29/04/2026      |      https://000049.awsstudygroup.com/                |
+| 5   | - Create a database on Amazon Relational Database Service (Amazon RDS)                                                                                                                                                                                                                    | 30/04/2026 | 30/04/2026      |            https://000005.awsstudygroup.com/          |
+| 6   | - Automate application scaling with Amazon EC2 Auto Scaling <br> - Build a system monitor with Amazon CloudWatch                                                                                                                                                                          | 01/05/2026 | 01/05/2026      |            https://000006.awsstudygroup.com/          |
+| 7   | - Use the AWS CLI on Amazon EC2 (Windows/Ubuntu)                                                                                                                                                                                                                                           | 02/05/2026 | 02/05/2026      |        https://000011.awsstudygroup.com/              |
 
 
 ### Week 2 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Completed a hands-on lab with Amazon EC2, covering instance metadata, user data, and Auto Scaling.
+* Practiced launching, modifying, and backing up EC2 instances using snapshots and custom AMIs.
+* Deployed a functional AWS User Management Application on Amazon Linux.
+* Generated and used an IAM access key, and practiced creating and using an IAM Role.
+* Explored the AWS Cloud9 browser-based IDE.
+* Created a database on Amazon RDS.
+* Automated infrastructure scaling with Amazon EC2 Auto Scaling.
+* Built a system monitoring dashboard using Amazon CloudWatch.
+* Practiced using the AWS CLI to manage Amazon EC2 instances on both Windows and Ubuntu.
 
-* Successfully created and configured an AWS Free Tier account.
+**AWS services learned this week:** Amazon S3, Amazon EC2, Amazon EC2 Auto Scaling, Amazon RDS, AWS CLI, Amazon Route 53, Amazon CloudWatch, AWS Cloud9, IAM (Users, Access Keys, Roles).
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+**Skills gained:** Using the AWS CLI; configuring, backing up, and packaging virtual servers.
