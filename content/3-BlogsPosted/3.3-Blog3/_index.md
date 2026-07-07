@@ -21,7 +21,7 @@ To achieve absolute security boundaries, transparent cost management, and comple
 This model provided excellent isolation, but when the system grew to thousands of accounts with a total of 1 million Lambda functions, they immediately encountered severe operational nightmares:
 
 *(The account-vending workflow used to provision each new tenant account: creating the account, moving it into the right OU, tagging it, and adjusting its service quotas)*
-![Account vending Step Functions workflow](/images/3-BlogsPosted/3.3-Blog3/01-account-vending-stepfunctions.png)
+![Account vending Step Functions workflow](/images/3-Blog/3.3-Blog3/01-account-vending-stepfunctions.png)
 
 ### Problem 1: Self-DDoS (Self-Inflicted Denial of Service)
 
