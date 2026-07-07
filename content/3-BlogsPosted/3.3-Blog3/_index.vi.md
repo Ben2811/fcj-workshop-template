@@ -21,7 +21,7 @@ Chào anh em AWS Study Group! Hôm nay mình muốn chia sẻ một case study c
 Mô hình này cô lập cực tốt, nhưng khi hệ thống tăng trưởng lên hàng ngàn tài khoản với tổng số lượng hàm chạm mốc 1 triệu, họ lập tức va phải hàng loạt bài toán vận hành khốc liệt:
 
 *(Quy trình "vending" tài khoản dùng để khởi tạo mỗi tài khoản tenant mới: tạo account, chuyển vào đúng OU, gắn tag, và điều chỉnh quota dịch vụ)*
-![Account vending Step Functions workflow](/images/3-BlogsPosted/3.3-Blog3/01-account-vending-stepfunctions.png)
+![Account vending Step Functions workflow](/images/3-Blog/3.3-Blog3/01-account-vending-stepfunctions.png)
 
 ### Vấn đề 1: Self-DDoS (Tự DDoS Mạng Của Chính Mình)
 
