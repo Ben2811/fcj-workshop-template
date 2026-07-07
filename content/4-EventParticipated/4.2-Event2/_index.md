@@ -117,7 +117,6 @@ Attending **“FCAJ Community Day”** was a great opportunity to see how differ
 
 ![FCAJ Community Day - Event 2 photo 1](/images/4-Event/4.2-Event2/z8012065877084_853d29ab87285253c4f9a1cad027098b.jpg)
 ![FCAJ Community Day - Event 2 photo 2](/images/4-Event/4.2-Event2/z8012065879363_cb33bba29fe0bd36fe2c79e27a74c476.jpg)
-![FCAJ Community Day - Event 2 photo 3](/images/4-Event/4.2-Event2/z8012065891384_1585a7555705be56643f35d1a68f12a9.jpg)
-![FCAJ Community Day - Event 2 photo 4](/images/4-Event/4.2-Event2/z8012065902756_2881fcccc436fc5ecf8e7a300c5a8f85.jpg)
+![FCAJ Community Day - Event 2 photo 3](/images/4-Event/4.2-Event2/z8012065902756_2881fcccc436fc5ecf8e7a300c5a8f85.jpg)
 
 > Overall, the event connected AI reliability, agentic system design, context engineering, and cloud infrastructure fundamentals into one coherent picture — and reinforced that solid engineering practices matter just as much in the AI era as they always have.

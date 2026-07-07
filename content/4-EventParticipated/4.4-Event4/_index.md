@@ -132,13 +132,6 @@ Attending this session of **“FCAJ Community Day”** was a great showcase of h
 
 ![FCAJ Community Day - Event 4 photo 1](/images/4-Event/4.4-Event4/z8012266994745_bc1ffb4a5a13624ddc34f55d5fe58ab3.jpg)
 ![FCAJ Community Day - Event 4 photo 2](/images/4-Event/4.4-Event4/z8012267004587_3d660abe63aa0ed6353e1a97f5fc91ee.jpg)
-![FCAJ Community Day - Event 4 photo 3](/images/4-Event/4.4-Event4/z8012267006378_2c977e46c570e2a84aa270447fd3b7ab.jpg)
-![FCAJ Community Day - Event 4 photo 4](/images/4-Event/4.4-Event4/z8012267023530_87f1c536c37eadf5e901a47cc3368c52.jpg)
-![FCAJ Community Day - Event 4 photo 5](/images/4-Event/4.4-Event4/z8012267027914_fea5b7f93149de2cde311da0c5c166e6.jpg)
-![FCAJ Community Day - Event 4 photo 6](/images/4-Event/4.4-Event4/z8012267035281_be6fe382e74c7150569a8e1f18898917.jpg)
-![FCAJ Community Day - Event 4 photo 7](/images/4-Event/4.4-Event4/z8012267043597_e0eea77a0b478adc10bbbbbfe9f8079f.jpg)
-![FCAJ Community Day - Event 4 photo 8](/images/4-Event/4.4-Event4/z8012267056358_11c989603c090479bcc67c020a2593a8.jpg)
-![FCAJ Community Day - Event 4 photo 9](/images/4-Event/4.4-Event4/z8012267059214_6e121fe5141a80ce3861e0bcaaf11d02.jpg)
-![FCAJ Community Day - Event 4 photo 10](/images/4-Event/4.4-Event4/z8012267066189_705586ec6b74753aa53374038bf83f18.jpg)
+![FCAJ Community Day - Event 4 photo 3](/images/4-Event/4.4-Event4/z8012267035281_be6fe382e74c7150569a8e1f18898917.jpg)
 
 > Overall, this session of FCAJ Community Day connected cybersecurity, containerization, career growth, real-time game networking, teamwork, and applied generative AI into one picture: strong technical building blocks only turn into shipped, resilient projects when paired with fundamentals and the right team practices.

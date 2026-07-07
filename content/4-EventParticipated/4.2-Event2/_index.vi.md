@@ -118,7 +118,6 @@ Tham gia **“FCAJ Community Day”** là cơ hội tuyệt vời để thấy c
 
 ![FCAJ Community Day - Event 2 photo 1](/images/4-Event/4.2-Event2/z8012065877084_853d29ab87285253c4f9a1cad027098b.jpg)
 ![FCAJ Community Day - Event 2 photo 2](/images/4-Event/4.2-Event2/z8012065879363_cb33bba29fe0bd36fe2c79e27a74c476.jpg)
-![FCAJ Community Day - Event 2 photo 3](/images/4-Event/4.2-Event2/z8012065891384_1585a7555705be56643f35d1a68f12a9.jpg)
-![FCAJ Community Day - Event 2 photo 4](/images/4-Event/4.2-Event2/z8012065902756_2881fcccc436fc5ecf8e7a300c5a8f85.jpg)
+![FCAJ Community Day - Event 2 photo 3](/images/4-Event/4.2-Event2/z8012065902756_2881fcccc436fc5ecf8e7a300c5a8f85.jpg)
 
 > Tổng thể, sự kiện đã kết nối các mảnh ghép về độ tin cậy của AI, thiết kế hệ thống agentic, context engineering và nền tảng hạ tầng cloud thành một bức tranh nhất quán — đồng thời khẳng định rằng các nguyên tắc kỹ thuật vững chắc vẫn quan trọng không kém trong thời đại AI như trước đây.
