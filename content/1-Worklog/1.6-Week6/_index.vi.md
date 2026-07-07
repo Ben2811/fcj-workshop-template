@@ -18,7 +18,7 @@ pre: " <b> 1.6. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                     | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | --------------- | -------------- |
-| 2   | - Kiểm tra security benchmark bằng AWS Security Hub <br> - Bảo vệ ứng dụng và API bằng AWS WAF (Web Application Firewall)                                          | 25/05/2026   | 25/05/2026      |   https://000018.awsstudygroup.com/              |
+| 2   | - Kiểm tra security benchmark bằng AWS Security Hub <br> - Bảo vệ ứng dụng và API bằng AWS WAF (Web Application Firewall) <br> - **PeriodIQ:** họp nhóm để rà soát kiến trúc hệ thống (thiết kế serverless 7 tầng trên AWS) và chia dự án thành 5 nhóm vai trò, mỗi nhóm phụ trách 3-4 dịch vụ AWS | 25/05/2026   | 25/05/2026      |   https://000018.awsstudygroup.com/              |
 | 3   | - Tìm hiểu quản lý key bằng AWS Key Management Service (AWS KMS)                                                                                                     | 26/05/2026   | 26/05/2026      |      https://000033.awsstudygroup.com/            |
 | 4   | - Triển khai ứng dụng bằng Docker                                                                                                                                    | 27/05/2026   | 27/05/2026      |      https://000015.awsstudygroup.com/           |
 | 5   | - Triển khai ứng dụng lên Amazon Elastic Container Service (Amazon ECS)                                                                                              | 28/05/2026   | 28/05/2026      |      https://000016.awsstudygroup.com/            |
@@ -34,6 +34,7 @@ pre: " <b> 1.6. </b> "
 * Triển khai ứng dụng container lên Amazon Elastic Container Service (Amazon ECS).
 * Tự động hoá quy trình triển khai bằng AWS CodePipeline.
 * Tham gia FCAJ Community Day để tiếp tục mở rộng kiến thức kỹ thuật và kết nối cộng đồng.
+* **Khởi động dự án PeriodIQ:** họp cùng nhóm để rà soát kiến trúc serverless 7 tầng và chia dự án thành 5 nhóm vai trò; tôi được phân công vai trò **Admin Panel & Data**.
 
 **Dịch vụ AWS đã học trong tuần:** AWS Security Hub, AWS WAF, AWS KMS, Docker, Amazon ECS, AWS CodePipeline.
 

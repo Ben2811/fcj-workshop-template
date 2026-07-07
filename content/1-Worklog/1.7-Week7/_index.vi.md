@@ -21,7 +21,7 @@ pre: " <b> 1.7. </b> "
 | 2   | - Lưu trữ dữ liệu không giới hạn trên AWS bằng File Storage Gateway                          | 01/06/2026   | 01/06/2026      |    https://000024.awsstudygroup.com/             |
 | 3   | - Triển khai kho lưu trữ dùng chung cho Windows bằng Amazon FSx                              | 02/06/2026   | 02/06/2026      |    https://000025.awsstudygroup.com/             |
 | 4   | - Xây dựng Data Lake trên AWS                                                                | 03/06/2026   | 03/06/2026      |    https://000035.awsstudygroup.com/             |
-| 5   | - Thiết kế kiến trúc nâng cao với Amazon DynamoDB                                            | 04/06/2026   | 04/06/2026      |     https://000039.awsstudygroup.com/            |
+| 5   | - Thiết kế kiến trúc nâng cao với Amazon DynamoDB <br> - **PeriodIQ:** phác thảo data model DynamoDB ban đầu cho vai trò Admin Panel & Data, áp dụng ngay kiến thức vừa học | 04/06/2026   | 04/06/2026      |     https://000039.awsstudygroup.com/            |
 | 6   | - Tối ưu chi phí bằng Savings Plans, Reserved Instance, Reserved DB Instance                 | 05/06/2026   | 05/06/2026      |     https://000042.awsstudygroup.com/            |
 | 7   | - Tham gia FCAJ Community Day: Docker & Virtualization, hành trình từ IT Helpdesk đến System Admin, Machine Learning với AWS security, GODOT | 06/06/2026   | 06/06/2026      |                 |
 
@@ -33,6 +33,7 @@ pre: " <b> 1.7. </b> "
 * Xây dựng môi trường Data Lake trên AWS.
 * Thiết kế kiến trúc NoSQL nâng cao bằng Amazon DynamoDB.
 * Tối ưu chi phí cloud bằng Savings Plans, Reserved Instance và Reserved DB Instance.
+* **PeriodIQ:** phác thảo data model DynamoDB ban đầu cho vai trò Admin Panel & Data, ngay sau khi học các pattern thiết kế DynamoDB nâng cao.
 * Tham gia FCAJ Community Day: Docker & Virtualization, hành trình từ IT Helpdesk đến System Admin, Machine Learning với AWS security, và GODOT.
 
 **Dịch vụ AWS đã học trong tuần:** AWS Storage Gateway (File Gateway), Amazon FSx for Windows File Server, AWS Lake Formation & Amazon S3 (Data Lake), Amazon DynamoDB, AWS Cost Management (Savings Plans, Reserved Instances).

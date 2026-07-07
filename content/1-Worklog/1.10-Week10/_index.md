@@ -22,8 +22,8 @@ pre: " <b> 1.10. </b> "
 | 3   | - Set up CI/CD with AWS CodePipeline                                                               | 23/06/2026 | 23/06/2026      |        https://000152.awsstudygroup.com/vi/              |
 | 4   | - Migrate a monolith to microservices with Docker and AWS Fargate                                 | 24/06/2026 | 24/06/2026      |      https://000067.awsstudygroup.com/          |
 | 5   | - Set up CI/CD on Amazon EKS with AWS CodePipeline and GitHub                                      | 25/06/2026 | 25/06/2026      |       https://000062.awsstudygroup.com/vi/               |
-| 6   | - **PeriodIQ:** start designing the DynamoDB data model for the Admin Panel & Data role (8 tables)  | 26/06/2026 | 26/06/2026      |  <https://github.com/PeriolIQ/PeriodIQ>  |
-| 7   | - **PeriodIQ:** finish the DynamoDB data model and plan the required GSIs                           | 27/06/2026 | 27/06/2026      |  <https://github.com/PeriolIQ/PeriodIQ>  |
+| 6   | - **PeriodIQ:** expand the Week 7 sketch into the full DynamoDB data model for the Admin Panel & Data role (8 tables) | 26/06/2026 | 26/06/2026      |  <https://github.com/PeriolIQ/PeriodIQ>  |
+| 7   | - **PeriodIQ:** finalize the DynamoDB schema and plan the required GSIs                             | 27/06/2026 | 27/06/2026      |  <https://github.com/PeriolIQ/PeriodIQ>  |
 
 ### Week 10 Achievements:
 
@@ -33,6 +33,6 @@ pre: " <b> 1.10. </b> "
 * Set up CI/CD on Amazon EKS integrating CodePipeline with GitHub.
 * Built a serverless frontend that calls a backend through Amazon API Gateway.
 * Deployed serverless applications using the AWS Serverless Application Model (SAM).
-* **PeriodIQ hands-on project:** designed the DynamoDB data model (8 tables) and GSI plan for the Admin Panel & Data role.
+* **PeriodIQ hands-on project:** expanded the Week 7 sketch into the full DynamoDB data model (8 tables) and GSI plan for the Admin Panel & Data role.
 
 **AWS services learned this week:** Amazon EKS, AWS CodePipeline, Docker, AWS Fargate, Amazon API Gateway, AWS SAM.

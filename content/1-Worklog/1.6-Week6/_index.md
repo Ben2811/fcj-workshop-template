@@ -18,7 +18,7 @@ pre: " <b> 1.6. </b> "
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                             | Start Date | Completion Date | Reference Material |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ------------------- |
-| 2   | - Check security benchmarks with AWS Security Hub <br> - Secure applications and APIs with AWS WAF (Web Application Firewall)                                       | 25/05/2026 | 25/05/2026      |     https://000018.awsstudygroup.com/                 |
+| 2   | - Check security benchmarks with AWS Security Hub <br> - Secure applications and APIs with AWS WAF (Web Application Firewall) <br> - **PeriodIQ:** team meeting to review the system architecture (7-layer serverless design on AWS) and split the project into 5 role groups, each owning 3-4 AWS services | 25/05/2026 | 25/05/2026      |     https://000018.awsstudygroup.com/                 |
 | 3   | - Learn key management with AWS Key Management Service (AWS KMS)                                                                                                     | 26/05/2026 | 26/05/2026      |        https://000033.awsstudygroup.com/              |
 | 4   | - Deploy applications with Docker                                                                                                                                    | 27/05/2026 | 27/05/2026      |     https://000015.awsstudygroup.com/                   |
 | 5   | - Deploy applications to Amazon Elastic Container Service (Amazon ECS)                                                                                               | 28/05/2026 | 28/05/2026      |     https://000016.awsstudygroup.com/               |
@@ -34,6 +34,7 @@ pre: " <b> 1.6. </b> "
 * Deployed containerized applications to Amazon Elastic Container Service (Amazon ECS).
 * Automated the deployment workflow using AWS CodePipeline.
 * Attended FCAJ Community Day for further technical and community engagement.
+* **PeriodIQ kickoff:** met with the team to walk through the 7-layer serverless architecture and split the project into 5 role groups; I was assigned the **Admin Panel & Data** role.
 
 **AWS services learned this week:** AWS Security Hub, AWS WAF, AWS KMS, Docker, Amazon ECS, AWS CodePipeline.
 
