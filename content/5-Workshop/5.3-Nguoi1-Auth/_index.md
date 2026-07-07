@@ -1,5 +1,5 @@
 ---
-title : "Lê Hoài Huân - Auth & User Profile"
+title : "Le Hoai Huan - Auth & User Profile"
 date : 2024-01-01
 weight : 3
 chapter : false
