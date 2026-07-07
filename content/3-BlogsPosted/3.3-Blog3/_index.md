@@ -58,10 +58,10 @@ They implemented a rigorous filter at each account:
 They completely removed the SQS polling mechanism between EventBridge and Lambda for inactive accounts. By ruthlessly optimizing these "trailing resources," idle account costs dropped to **under $1/month per account**.
 
 *(Pattern 1 - the original per-account design: every account keeps its own EventBridge → SQS → Lambda → DLQ chain, so idle accounts still pay for a live queue)*
-![Pattern 1 - Single Account](/images/3-BlogsPosted/3.3-Blog3/02-pattern1-single-account.png)
+![Pattern 1 - Single Account](/images/3-Blog/3.3-Blog3/02-pattern1-single-account.png)
 
 *(Pattern 2 - the redesigned cross-account flow: EventBridge and Lambda stay in the source account, while the SQS queue moves to a shared central account, removing the need for idle accounts to hold their own polling infrastructure)*
-![Pattern 2 - Cross Account](/images/3-BlogsPosted/3.3-Blog3/03-pattern2-cross-account.png)
+![Pattern 2 - Cross Account](/images/3-Blog/3.3-Blog3/03-pattern2-cross-account.png)
 
 ### 4. Centralized Management with Mono-Repo Structure
 

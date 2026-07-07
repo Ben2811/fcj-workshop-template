@@ -58,10 +58,10 @@ Họ thiết lập một bộ lọc nghiêm ngặt ngay tại nguồn của từ
 Đội ngũ đã loại bỏ hoàn toàn cơ chế Polling của Amazon SQS nằm giữa EventBridge và Lambda đối với các tài khoản không hoạt động. Bằng tối ưu triệt để, chi phí duy trì cho mỗi tài khoản ở trạng thái rảnh rỗi đã kéo xuống **chưa tới $1/tháng**.
 
 *(Pattern 1 - thiết kế ban đầu theo từng account: mỗi tài khoản tự giữ một chuỗi EventBridge → SQS → Lambda → DLQ riêng, nên account rảnh rỗi vẫn phải trả phí cho một hàng đợi luôn sống)*
-![Pattern 1 - Single Account](/images/3-BlogsPosted/3.3-Blog3/02-pattern1-single-account.png)
+![Pattern 1 - Single Account](/images/3-Blog/3.3-Blog3/02-pattern1-single-account.png)
 
 *(Pattern 2 - luồng cross-account sau khi tái thiết kế: EventBridge và Lambda vẫn ở account nguồn, còn hàng đợi SQS được chuyển về một account trung tâm dùng chung, loại bỏ nhu cầu account rảnh rỗi phải tự duy trì hạ tầng polling)*
-![Pattern 2 - Cross Account](/images/3-BlogsPosted/3.3-Blog3/03-pattern2-cross-account.png)
+![Pattern 2 - Cross Account](/images/3-Blog/3.3-Blog3/03-pattern2-cross-account.png)
 
 ### 4. Quản Trị Tập Trung Bằng Cấu Trúc Mono-Repo
 
