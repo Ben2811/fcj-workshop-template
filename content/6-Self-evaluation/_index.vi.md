@@ -7,7 +7,7 @@ pre: " <b> 6. </b> "
 ---
 
 
-Trong suốt thời gian thực tập tại **Công ty TNHH Amazon Web Services Việt Nam**, thuộc chương trình **Workforce Bootcamp – First Cloud AI Journey (FCJ)**, từ **17/04/2026** đến **10/07/2026**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.  
+Trong suốt thời gian thực tập tại **Công ty TNHH Amazon Web Services Việt Nam**, thuộc chương trình **Workforce Bootcamp – First Cloud AI Journey (FCAJ)**, từ **17/04/2026** đến **10/07/2026**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.  
 9 tuần đầu tôi theo chương trình học của AWS Study Group để xây dựng nền tảng kỹ năng cloud, sau đó dành 3 tuần cuối để áp dụng thực tế kiến thức đó vào dự án nhóm **PeriodIQ**, nơi tôi phụ trách vai trò **Admin Panel & Data** (Amazon DynamoDB, AWS Lambda, Amazon API Gateway) và viết chương AWS Workshop của bài báo cáo này. Qua đó, tôi đã cải thiện kỹ năng **thiết kế kiến trúc serverless, phát triển backend API (.NET/Lambda), thiết kế data model NoSQL, viết unit test, và viết tài liệu kỹ thuật**.  
 
 Về tác phong, tôi luôn cố gắng hoàn thành tốt nhiệm vụ, tuân thủ nội quy, và tích cực trao đổi với đồng nghiệp để nâng cao hiệu quả công việc.

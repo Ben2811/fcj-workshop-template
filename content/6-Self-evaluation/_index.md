@@ -7,7 +7,7 @@ pre: " <b> 6. </b> "
 ---
 
 
-During my internship at **Amazon Web Services Vietnam Co., Ltd.**, as part of the **Workforce Bootcamp – First Cloud AI Journey (FCJ)** program, from **17/04/2026** to **10/07/2026**, I had the opportunity to learn, practice, and apply the knowledge acquired in school to a real-world working environment.  
+During my internship at **Amazon Web Services Vietnam Co., Ltd.**, as part of the **Workforce Bootcamp – First Cloud AI Journey (FCAJ)** program, from **17/04/2026** to **10/07/2026**, I had the opportunity to learn, practice, and apply the knowledge acquired in school to a real-world working environment.  
 For the first 9 weeks I followed the AWS Study Group curriculum to build core cloud skills, then spent the last 3 weeks applying that knowledge hands-on to a real team project, **PeriodIQ**, where I owned the **Admin Panel & Data** role (Amazon DynamoDB, AWS Lambda, Amazon API Gateway) and wrote up the resulting AWS Workshop chapter. Through this, I improved my skills in **serverless architecture design, backend API development (.NET/Lambda), NoSQL data modeling, unit testing, and technical documentation**.  
 
 In terms of work ethic, I always strived to complete tasks well, complied with workplace regulations, and actively engaged with colleagues to improve work efficiency.
