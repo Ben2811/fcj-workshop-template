@@ -5,53 +5,31 @@ weight: 2
 chapter: false
 pre: " <b> 1.12. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 12 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Check and validate the Admin Panel frontend built in Week 11 against the real Lambda Admin API and DynamoDB data.
+* Start writing the AWS Workshop chapter documenting the finished PeriodIQ project end-to-end, using real, already-deployed infrastructure as evidence.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Task                                                                                                                                             | Start Date | Completion Date | Reference Material |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ------------------- |
+| 2   | - Check the Admin Panel frontend end-to-end against the real Admin API and DynamoDB data (Dashboard, Exercises, Rules, Templates pages) <br> - Fix any bugs found during review | 06/07/2026 | 06/07/2026      | <https://github.com/PeriolIQ/PeriodIQ> |
+| 3   | - Start writing the AWS Workshop overview and prerequisites sections                                                                              | 07/07/2026 | 07/07/2026      | <https://github.com/Ben2811/fcj-workshop-template> |
+| 4   | - Write section 5.6 of the AWS Workshop (Admin Panel & Data): DynamoDB, Lambda Admin API, Admin Panel frontend, with real CLI/screenshot evidence  | 08/07/2026 | 08/07/2026      | <https://github.com/Ben2811/fcj-workshop-template> |
+| 5   | - Write the Workshop sections documenting my teammates' roles (Auth & User Profile, Rule Engine & Workout Generation, Progress & Async Notification, CI/CD & Monitoring) | 09/07/2026 | 09/07/2026      | <https://github.com/Ben2811/fcj-workshop-template> |
+| 6   | - Proofread and sync the English/Vietnamese Workshop content                                                                                       | 10/07/2026 | 10/07/2026      | <https://github.com/Ben2811/fcj-workshop-template> |
 
 
 ### Week 12 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Checked the Admin Panel React frontend end-to-end against the real Lambda Admin API and DynamoDB data, and fixed the bugs found during review.
 
-* Successfully created and configured an AWS Free Tier account.
+* Started and made strong progress on the AWS Workshop chapter for the internship report, including:
+  * The workshop overview and prerequisites sections.
+  * My own section (5.6 - Admin Panel & Data), backed by real `aws` CLI calls and screenshots against the live deployment rather than a simplified rebuild.
+  * The sections documenting my teammates' roles (Auth & User Profile, Rule Engine & Workout Generation, Progress & Async Notification, CI/CD & Monitoring), kept in sync across the English and Vietnamese versions.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Practiced translating a real, already-shipped serverless project into workshop-style documentation that another engineer could follow and verify step by step.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+**AWS services used this week:** Amazon DynamoDB, AWS Lambda, Amazon API Gateway.

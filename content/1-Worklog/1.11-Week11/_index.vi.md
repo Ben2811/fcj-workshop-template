@@ -16,12 +16,11 @@ pre: " <b> 1.11. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                       | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | -------------------------------------------------------------------------------- | ------------ | --------------- | -------------- |
-| 2   | - Serverless: authentication với Amazon Cognito                                   | 29/06/2026   | 29/06/2026      |  https://000081.awsstudygroup.com/                |
-| 3   | - Serverless: thiết lập SSL cho ứng dụng serverless                               | 30/06/2026   | 30/06/2026      |   https://000082.awsstudygroup.com/              |
-| 4   | - Serverless: xử lý đơn hàng bằng Amazon SQS và SNS                                | 01/07/2026   | 01/07/2026      |    https://000083.awsstudygroup.com/             |
-| 5   | - Serverless: CI/CD bằng AWS CodePipeline                                          | 02/07/2026   | 02/07/2026      |    https://000084.awsstudygroup.com/             |
-| 6   | - Serverless: giám sát ứng dụng bằng Amazon CloudWatch và AWS X-Ray                | 03/07/2026   | 03/07/2026      |    https://000085.awsstudygroup.com/             |
-
+| 2   | - **PeriodIQ:** tạo 8 bảng DynamoDB cùng các GSI trên hạ tầng triển khai thật                    | 29/06/2026   | 29/06/2026      |  <https://github.com/PeriolIQ/PeriodIQ>  |
+| 3   | - **PeriodIQ:** xây dựng các controller của Lambda Admin API phía sau API Gateway                | 30/06/2026   | 30/06/2026      |  <https://github.com/PeriolIQ/PeriodIQ>  |
+| 4   | - **PeriodIQ:** viết unit test cho các controller của Lambda Admin API                            | 01/07/2026   | 01/07/2026      |  <https://github.com/PeriolIQ/PeriodIQ>  |
+| 5   | - **PeriodIQ:** xây dựng frontend Admin Panel bằng React (Dashboard, Exercises, Rules, Templates) | 02/07/2026   | 02/07/2026      |  <https://github.com/PeriolIQ/PeriodIQ>  |
+| 6   | - **PeriodIQ:** kết nối frontend Admin Panel với Admin API và kiểm tra end-to-end                 | 03/07/2026   | 03/07/2026      |  <https://github.com/PeriolIQ/PeriodIQ>  |
 
 ### Kết quả đạt được tuần 11:
 
@@ -30,6 +29,7 @@ pre: " <b> 1.11. </b> "
 * Xây dựng workflow xử lý đơn hàng bằng Amazon SQS và SNS.
 * Tự động hoá CI/CD cho ứng dụng serverless bằng AWS CodePipeline.
 * Giám sát ứng dụng serverless bằng Amazon CloudWatch và AWS X-Ray.
+* **Dự án thực hành PeriodIQ:** tạo 8 bảng DynamoDB cùng GSI, xây dựng các controller của Lambda Admin API kèm unit test, và xây dựng frontend Admin Panel bằng React — hoàn thành vai trò Admin Panel & Data từ đầu đến cuối.
 
 **Dịch vụ AWS đã học trong tuần:** AWS SAM, Amazon Cognito, Amazon SQS, Amazon SNS, AWS CodePipeline, Amazon CloudWatch, AWS X-Ray.
 

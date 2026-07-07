@@ -23,9 +23,8 @@ pre: " <b> 1.10. </b> "
 | 3   | - Thiết lập CI/CD bằng AWS CodePipeline                                           | 23/06/2026   | 23/06/2026      |   https://000152.awsstudygroup.com/vi/              |
 | 4   | - Migrate ứng dụng monolith sang microservices bằng Docker và AWS Fargate         | 24/06/2026   | 24/06/2026      |    https://000067.awsstudygroup.com/              |
 | 5   | - Thiết lập CI/CD trên Amazon EKS bằng AWS CodePipeline và GitHub                 | 25/06/2026   | 25/06/2026      |     https://000062.awsstudygroup.com/vi/             |
-| 6   | - Serverless: xây dựng frontend gọi Amazon API Gateway                            | 26/06/2026   | 26/06/2026      |     https://000079.awsstudygroup.com/vi/             |
-| 7   | - Serverless: triển khai ứng dụng bằng AWS SAM                                    | 27/06/2026   | 27/06/2026      |       https://000080.awsstudygroup.com/vi/           |
-
+| 6   | - **PeriodIQ:** bắt đầu thiết kế data model DynamoDB cho vai trò Admin Panel & Data (8 bảng)     | 26/06/2026   | 26/06/2026      |  <https://github.com/PeriolIQ/PeriodIQ>  |
+| 7   | - **PeriodIQ:** hoàn thiện data model DynamoDB và lên kế hoạch các GSI cần thiết                 | 27/06/2026   | 27/06/2026      |  <https://github.com/PeriolIQ/PeriodIQ>  |
 
 ### Kết quả đạt được tuần 10:
 
@@ -35,6 +34,7 @@ pre: " <b> 1.10. </b> "
 * Thiết lập CI/CD trên Amazon EKS tích hợp CodePipeline với GitHub.
 * Xây dựng frontend serverless gọi backend thông qua Amazon API Gateway.
 * Triển khai ứng dụng serverless bằng AWS Serverless Application Model (SAM).
+* **Dự án thực hành PeriodIQ:** thiết kế data model DynamoDB (8 bảng) và kế hoạch GSI cho vai trò Admin Panel & Data.
 
 **Dịch vụ AWS đã học trong tuần:** Amazon EKS, AWS CodePipeline, Docker, AWS Fargate, Amazon API Gateway, AWS SAM.
 

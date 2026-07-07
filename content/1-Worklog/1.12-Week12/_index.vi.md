@@ -5,54 +5,32 @@ weight: 2
 chapter: false
 pre: " <b> 1.12 </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 ### Mục tiêu tuần 12:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Kiểm tra và xác thực frontend Admin Panel đã xây dựng ở tuần 11 với Lambda Admin API và dữ liệu DynamoDB thật.
+* Bắt đầu viết chương AWS Workshop tài liệu hóa toàn bộ dự án PeriodIQ đã hoàn thành, sử dụng hạ tầng thật đã triển khai làm bằng chứng.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ | Công việc                                                                                                                                          | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | -------------- |
+| 2   | - Kiểm tra frontend Admin Panel end-to-end với Admin API và dữ liệu DynamoDB thật (trang Dashboard, Exercises, Rules, Templates) <br> - Sửa các lỗi phát hiện được trong quá trình rà soát | 06/07/2026   | 06/07/2026      | <https://github.com/PeriolIQ/PeriodIQ> |
+| 3   | - Bắt đầu viết phần tổng quan và phần chuẩn bị của AWS Workshop                                                                                       | 07/07/2026   | 07/07/2026      | <https://github.com/Ben2811/fcj-workshop-template> |
+| 4   | - Viết mục 5.6 của AWS Workshop (Admin Panel & Data): DynamoDB, Lambda Admin API, frontend Admin Panel, kèm bằng chứng CLI/screenshot thật             | 08/07/2026   | 08/07/2026      | <https://github.com/Ben2811/fcj-workshop-template> |
+| 5   | - Viết các phần của Workshop tài liệu hóa vai trò của các đồng đội (Auth & User Profile, Rule Engine & Workout Generation, Progress & Async Notification, CI/CD & Monitoring) | 09/07/2026   | 09/07/2026      | <https://github.com/Ben2811/fcj-workshop-template> |
+| 6   | - Rà soát và đồng bộ nội dung Workshop giữa bản tiếng Anh và tiếng Việt                                                                                | 10/07/2026   | 10/07/2026      | <https://github.com/Ben2811/fcj-workshop-template> |
 
 
 ### Kết quả đạt được tuần 12:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Kiểm tra frontend Admin Panel bằng React end-to-end với Lambda Admin API và dữ liệu DynamoDB thật, và sửa các lỗi phát hiện được trong quá trình rà soát.
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Bắt đầu và có tiến triển tốt với chương AWS Workshop cho bài báo cáo thực tập, bao gồm:
+  * Phần tổng quan workshop và phần chuẩn bị.
+  * Phần của riêng tôi (5.6 - Admin Panel & Data), có bằng chứng là các lệnh `aws` CLI và screenshot thật chạy trên hệ thống đang triển khai, không phải bản dựng lại đơn giản hóa.
+  * Các phần tài liệu hóa vai trò của đồng đội (Auth & User Profile, Rule Engine & Workout Generation, Progress & Async Notification, CI/CD & Monitoring), đồng bộ giữa bản tiếng Anh và tiếng Việt.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Rèn luyện kỹ năng chuyển hóa một dự án serverless thật, đã triển khai thành tài liệu dạng workshop mà kỹ sư khác có thể theo dõi và kiểm chứng từng bước.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
+**Dịch vụ AWS đã sử dụng trong tuần:** Amazon DynamoDB, AWS Lambda, Amazon API Gateway.
 
