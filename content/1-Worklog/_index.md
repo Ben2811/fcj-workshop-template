@@ -7,7 +7,7 @@ pre: " <b> 1. </b> "
 ---
 
 
-I completed the **Workforce Bootcamp – First Cloud AI Journey** internship program at **Amazon Web Services Vietnam Co., Ltd.**, over **12 weeks** from 17/04/2026 to 10/07/2026. Most of the 12 weeks followed the AWS Study Group curriculum to build up core AWS skills. In parallel, my team kicked off our real project, **PeriodIQ**, in Week 6 and split into 5 role groups; I picked up light project work alongside the curriculum in Week 7, then spent Weeks 10–12 building out my **Admin Panel & Data** role end-to-end and writing up the resulting AWS Workshop chapter of this report.
+I completed the **Workforce Bootcamp – First Cloud AI Journey** internship program at **Amazon Web Services Vietnam Co., Ltd.**, over from 17/04/2026 to 30/07/2026. Most of the weeks followed the AWS Study Group curriculum to build up core AWS skills. In parallel, my team kicked off our real project, **PeriodIQ**, in Week 6 and split into 5 role groups; I picked up light project work alongside the curriculum in Week 7, then spent Weeks 10–12 building out my **Admin Panel & Data** role end-to-end and writing up the resulting AWS Workshop chapter of this report.
 
 Below is a week-by-week summary of what I did:
 
@@ -34,3 +34,5 @@ Below is a week-by-week summary of what I did:
 **Week 11:** [Building the PeriodIQ Admin Panel & Data role end-to-end](1.11-week11/)
 
 **Week 12:** [Checking the frontend and writing the AWS Workshop chapter](1.12-week12/)
+
+

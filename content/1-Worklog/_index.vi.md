@@ -7,7 +7,7 @@ pre: " <b> 1. </b> "
 ---
 
 
-Tôi đã hoàn thành chương trình thực tập **Workforce Bootcamp – First Cloud AI Journey** tại **Công ty TNHH Amazon Web Services Việt Nam**, kéo dài **12 tuần** từ 17/04/2026 đến 10/07/2026. Phần lớn 12 tuần theo chương trình học của AWS Study Group để xây dựng nền tảng kỹ năng AWS cốt lõi. Song song đó, nhóm tôi khởi động dự án thật **PeriodIQ** từ tuần 6 và chia thành 5 nhóm vai trò; tôi bắt đầu làm thêm việc cho dự án ngay từ tuần 7 bên cạnh chương trình học, rồi dành tuần 10–12 để xây dựng hoàn chỉnh vai trò **Admin Panel & Data** của mình và viết chương AWS Workshop của bài báo cáo này.
+Tôi đã hoàn thành chương trình thực tập **Workforce Bootcamp – First Cloud AI Journey** tại **Công ty TNHH Amazon Web Services Việt Nam**, kéo dài từ 17/04/2026 đến 30/07/2026. Phần lớn các tuần theo chương trình học của AWS Study Group để xây dựng nền tảng kỹ năng AWS cốt lõi. Song song đó, nhóm tôi khởi động dự án thật **PeriodIQ** từ tuần 6 và chia thành 5 nhóm vai trò; tôi bắt đầu làm thêm việc cho dự án ngay từ tuần 7 bên cạnh chương trình học, rồi dành tuần 10–12 để xây dựng hoàn chỉnh vai trò **Admin Panel & Data** của mình và viết chương AWS Workshop của bài báo cáo này.
 
 Dưới đây là tóm tắt công việc từng tuần:
 
